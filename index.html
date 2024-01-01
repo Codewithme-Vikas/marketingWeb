@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prmotion</title>
+    <link href="/dist/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="">
+
+    <!-- navbar start -->
+    <header class=" bg-slate-300 py-4 sm:py-1 sticky top-0">
+        <div class="w-11/12 mx-auto flex  items-center justify-between">
+
+            <div>
+                <a class="text-lg font-semibold">Promotion</a>
+            </div>
+
+
+            <nav class="hidden sm:block">
+                <ul class="flex items-center justify-center gap-4">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About us</a>
+                    </li>
+                    <li>
+                        <a href="">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sm:hidden">
+                <!-- Hamburger menu icon -->
+                <button id="toggleNav" class="text-black focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        class="h-6 w-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- for movile responsiveness navbar -->
+        <nav id="mobileNav" class="px-2 hidden transition-all duration-200 sm:hidden">
+            <ul class="flex flex-col  items-start border gap-[4px]">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About us</a>
+                </li>
+                <li>
+                    <a href="">Contact us</a>
+                </li>
+                <li>
+                    <a href="">Services</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- navbar end -->
+
+    <!-- middle section start -->
+    <section id="middle">
+        <div class=" mx-auto flex w-11/12">
+
+
+            <!-- left div -->
+            <div class="w-[1080px] min-h-[74vh] py-4 p-2">
+
+                <ul class="flex flex-col gap-2 list-disc px-8">
+                    <li>
+                        "Elevate your style with our latest collection – where fashion meets comfort and affordability."
+                    </li>
+                    <li>
+                        "Unlock the possibilities with our cutting-edge technology, designed to simplify your life and
+                        enhance your experiences."
+                    </li>
+                    <li>
+                        "Transform your workspace into a hub of productivity and creativity with our sleek and
+                        functional
+                        office solutions."
+                    </li>
+                    <li>
+                        "Discover a world of wellness with our all-natural products, promoting a healthier and happier
+                        lifestyle."
+                    </li>
+                    <li>
+                        "Unleash your inner artist with our vibrant color palettes – because every stroke tells a unique
+                        story."
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- right side  -->
+            <div class="hidden sm:block">
+                <div class="flex flex-col gap-2 border-l-2 py-2 pl-2 ">
+                    <p>Wanna show a add?</p>
+                    <p>We are provide best services in the chpeast price.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- middle section end -->
+
+
+
+    <!-- footer start -->
+    <footer class="bg-slate-200 p-4 py-4 text-center gap-2 text-sm">
+
+        <h2 class="text-lg font-semibold">Promotion</h2>
+        <p>"Empower your ambitions with our groundbreaking innovations – where limitless possibilities meet unparalleled
+            quality."</p>
+
+
+        <div class="flex gap-8 text-center justify-center items-center mt-1 ">
+            <div>
+                Copyright reserved &copy; by <span class="font-semibold">Promotion</span>
+            </div>
+
+            <div>
+                <ul class="flex gap-4">
+                    <li>
+                        <a class="underline underline-offset-2" href="#middle">Home</a>
+                    </li>
+                    <li>
+                        <a class="underline underline-offset-2" href="#middle">About</a>
+                    </li>
+                    <li>
+                        <a class="underline underline-offset-2" href="#middle">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- pop up container -->
+    <div id="popupContainer">
+        <p>This is a pop-up message for small screens!</p>
+        <button onclick="closePopup()" class="text-rose-700 px-3">
+            <i class="fa-solid fa-x"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
